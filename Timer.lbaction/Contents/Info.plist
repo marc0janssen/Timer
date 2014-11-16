@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Set a Timer</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.bytedash.LaunchBar.action.Timer</string>
+	<key>CFBundleIconFile</key>
+	<string>clock.pdf</string>
+	<key>LBAbbreviation</key>
+	<string>st</string>
+
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Marco Janssen</string>
+		<key>LBSummary</key>
+		<string>Create a timer to remind you of something later. Like "Turn off oven 15m". LaunchBar will create the reminder then after the delay time it will show you the reminder text as a large message with an accompanying sound. Original Timer script by Padraic Renaghan</string>
+		<key>LBTwitter</key>
+		<string>@M4RC0J</string>
+		<key>LBWebsite</key>
+		<string>http://www.bytedash.com/launchbar</string>
+		<key>LBEmail</key>
+		<string>launchbar@bytedash.com</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Please enter your message with delay</string>
+</dict>
+</plist>
